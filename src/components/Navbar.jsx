@@ -20,10 +20,10 @@ const Navbar = () => {
         </div> */}
       </div>
       <div className="m-8 flex flex-wrap items-center justify-center gap-4 text-2xl">
-        <FaLinkedin />
-        <FaGithub />
-        <FaTwitterSquare />
-        <FaInstagram />
+        <a href="https://www.linkedin.com/in/mahesh-raut-96aa59228/" target="_blank"><FaLinkedin /></a>
+        <a href="https://github.com/maheshraut07" target="_blank"><FaGithub /></a>
+        <a href="https://x.com/maheshraut_07" target="_blank"><FaTwitterSquare /></a>
+        <a href="https://www.instagram.com/maheshraut_07/" target="_blank"><FaInstagram /></a>
       </div>
     </nav>
   );

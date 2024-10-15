@@ -13,6 +13,7 @@ export const EXPERIENCES = [
     year: "May-24 - July-24",
     role: "Software Engineering Intern",
     company: "Connectwise LLP",
+    location: "Pune",
     description: `Collaborated with industry professionals to develop a brand-new web portal for a department in the company.
                   Technologies used: React for dynamic UIs, Material-UI for design consistency, Golang for backend services, PostgreSQL for database management, and Docker for containerization.
                   Utilized Agile development methodology for iterative progress and continuous improvement.`,
@@ -22,6 +23,7 @@ export const EXPERIENCES = [
     year: "Dec-23 - Jan-23",
     role: "Data Analysis Intern",
     company: "Edunet Foundation in collab with EY-GDS",
+    location: "Remote",
     description: `As a Data Analytics Intern for two months, responsibilities included collecting, cleaning, and analyzing data, as well as building machine learning models to support business decisions. Tasks involved performing exploratory data analysis (EDA), creating visualizations and reports using tools like Excel and Tableau, and collaborating with cross-functional teams to provide data-driven insights. Experience was gained in working with Python (Pandas, NumPy, scikit-learn), SQL, and applying statistical techniques and machine learning algorithms to identify trends, build predictive models, and contribute to projects focused on operational efficiency and business growth.`,
     technologies: ["Python", "Data Science", "Machine Learning", "Data Analysis"],
   }

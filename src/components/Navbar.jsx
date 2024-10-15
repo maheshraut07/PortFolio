@@ -10,13 +10,20 @@ const Navbar = () => {
     <nav className="mb-20 flex items-center justify-between py-5">
       <div className="flex flex-shrink-0 items-center">
         <img className="mx-2 w-10" src={logo} alt="logo" />
-        <a className="font-semibold underline text-purple-500" href="https://drive.google.com/file/d/1Il6DC5dzLqwvIcQkN2PHTBTA1ypnTt6v/view?usp=sharing" target="_blank">Resume</a>
+        {/* <div className="flex gap-3">
+        <span>Home</span>
+        <span>About</span>
+        <span>TechStack</span>
+        <span>Experience</span>
+        <span>Projects</span>
+        <span>Connect</span>
+        </div> */}
       </div>
       <div className="m-8 flex flex-wrap items-center justify-center gap-4 text-2xl">
-        <a href="https://www.linkedin.com/in/mahesh-raut-96aa59228/" target="_blank"><FaLinkedin /></a>
-        <a href="https://github.com/maheshraut07" target="_blank"><FaGithub /></a>
-        <a href="https://x.com/maheshraut_07" target="_blank"><FaTwitterSquare /></a>
-        <a href="https://www.instagram.com/maheshraut_07/" target="_blank"><FaInstagram /></a>
+        <FaLinkedin />
+        <FaGithub />
+        <FaTwitterSquare />
+        <FaInstagram />
       </div>
     </nav>
   );

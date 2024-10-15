@@ -1,7 +1,8 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/project-1.png";
+import project2 from "../assets/projects/project-2.png";
+import project3 from "../assets/projects/project-3.png";
+import project4 from "../assets/projects/project-4.png";
+import project5 from "../assets/projects/project-5.png";
 
 export const HERO_CONTENT = `I am a final year Computer Engineering student skilled in full-stack web development using the MERN stack (MongoDB, Express.js, React, and Node.js). I am proficient in multiple programming languages including Python, C++, Java, and Go (Golang). Additionally, I have a strong foundation in Data Structures and Algorithms (DSA) and a deep understanding of Data Science, which allows me to create efficient and data-driven solutions. My goal is to apply my skills to build scalable and innovative web applications that deliver exceptional user experiences.`;
 
@@ -28,37 +29,44 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "JobPulse - Syncing You with Oppurtunities",
     image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    duration:"Jul-24 - Oct-24",
+    description:"JobPortal is a web application where students can explore and apply for jobs in the tech field. Additionally, an admin can log in to post job listings. The platform is built with a modern tech stack using React.js, Shadcn-UI, Tailwind CSS, Redux Toolkit for the frontend, Node.js and Express.js for the backend, and MongoDB as the database.",
+    technologies: ["React.js", "Redux", "tailwindCSS", "ShadcnUI", "Node.js", "Express.js", "MongoDB"],
   },
   {
-    title: "Task Management App",
+    title: "NoteEase - Secure Easy Noting",
     image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    duration:"Jan-24 - March-24",
+    description:"NoteEase is a secure and user-friendly application built with React.js, Node.js, Express.js, MongoDB, and Tailwind CSS. It allows users to effortlessly create, update, and delete personal notes, helping them organize their thoughts and ideas efficiently.",
+    technologies: ["React.js", "tailwindCSS", "Node.js", "Express.js", "MongoDB"],
+  },
+  {
+    title: "HealthCare Predictions on Diabetic Patients",
+    image: project3,
+    duration:"Dec-23 - Jan-24",
+    description:"This project aims to predict whether a person has diabetes or not based on input attributes such as glucose levels, age, gender, and BMI. The dataset contains fields like BMI, insulin, age, gender, blood pressure, skin thickness, etc. Various libraries have been used for preprocessing and training the model using these values to predict the results.",
+    technologies: ["Python", "Data Science", "Machine Learning", "Data Analysis", "Data Visualization"],
   },
   {
     title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    image: project4,
+    duration:"sept-23 - Oct-23",
+    description: "A personal portfolio website showcasing projects, skills, and contact information. Built to highlight my expertise in full stack development with an interactive and responsive design. The site provides an easy way to explore my work, background, and ways to get in touch.",
+    technologies: ["React.js", "TailwindCSS", "Framer-Motion"],
   },
   {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    title: "TextEdit- App for Editing the Text",
+    image: project5,
+    duration:"Jul-23 - Aug-23",
+    description:"TextEdit is a simple and powerful web application made with React and Bootstrap using the create-react-app bundler. The app provides various features to manipulate and analyze text, such as converting text to uppercase or lowercase, removing extra spaces, copying text to the clipboard, and counting words and characters.",
+    technologies: ["React.js", "BootStrap"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Near Shiv Mandir, Sant Tukaram Nagar, Pimpri, Pune - 411018",
+  phoneNo: "+91 8999412907",
+  email: "rautmahesh213@gmail.com",
 };

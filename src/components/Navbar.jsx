@@ -10,6 +10,14 @@ const Navbar = () => {
     <nav className="mb-20 flex items-center justify-between py-5">
       <div className="flex flex-shrink-0 items-center">
         <img className="mx-2 w-10" src={logo} alt="logo" />
+        {/* <div className="flex gap-3">
+        <span>Home</span>
+        <span>About</span>
+        <span>TechStack</span>
+        <span>Experience</span>
+        <span>Projects</span>
+        <span>Connect</span>
+        </div> */}
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
         <FaLinkedin />

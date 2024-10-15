@@ -1,14 +1,24 @@
 import React from "react";
 import { PROJECTS } from "../constants";
+import {motion} from 'framer-motion'
+
 
 const Projects = () => {
   return (
     <div className="border-b border-neutral-900 pb-4">
-      <h1 className="my-20 text-center text-4xl">Projects</h1>
+      <motion.h1 
+         whileInView={{opacity: 1, y:0}}
+         initial={{opacity: 0, y: -100}}
+         transition={{duration:0.5}}
+        className="my-20 text-center text-4xl">Projects</motion.h1>
       <div>
         {PROJECTS.map((project, index) => (
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
-            <div className="w-full lg:w-1/4">
+            <motion.div 
+              whileInView={{opacity: 1, x: 0}}
+              initial={{opacity: 0, x: -100}}
+              transition={{duration: 1}}
+              className="w-full lg:w-1/4">
               <img
                 src={project.image}
                 width={350}
@@ -16,8 +26,12 @@ const Projects = () => {
                 alt={project.title}
                 className="mb-8 rounded"
               />
-            </div>
-            <div className="w-full mr-3 max-w-xl lg:w-3/4">
+            </motion.div>
+            <motion.div 
+              whileInView={{opacity: 1, x: 0}}
+              initial={{opacity: 0, x: 100}}
+              transition={{duration: 1.5}}
+              className="w-full mr-3 max-w-xl lg:w-3/4">
               <div className="flex flex-wrap gap-5">
                 <span className="mb-1 font-semibold">{project.title}</span>
                 <span className="mb-2">{project.duration}</span>
@@ -32,7 +46,7 @@ const Projects = () => {
                   </span>
                 ))}
               </div>
-            </div>
+            </motion.div>
           </div>
         ))}
       </div>

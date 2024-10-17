@@ -32,6 +32,7 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "JobPulse - Syncing You with Oppurtunities",
+    link: "https://jobpulse-deploy.onrender.com/",
     image: project1,
     duration:"Jul-24 - Oct-24",
     description:"JobPortal is a web application where students can explore and apply for jobs in the tech field. Additionally, an admin can log in to post job listings. The platform is built with a modern tech stack using React.js, Shadcn-UI, Tailwind CSS, Redux Toolkit for the frontend, Node.js and Express.js for the backend, and MongoDB as the database.",
@@ -39,6 +40,7 @@ export const PROJECTS = [
   },
   {
     title: "NoteEase - Secure Easy Noting",
+    link:"https://github.com/maheshraut07/NoteEase",
     image: project2,
     duration:"Jan-24 - March-24",
     description:"NoteEase is a secure and user-friendly application built with React.js, Node.js, Express.js, MongoDB, and Tailwind CSS. It allows users to effortlessly create, update, and delete personal notes, helping them organize their thoughts and ideas efficiently.",
@@ -46,6 +48,7 @@ export const PROJECTS = [
   },
   {
     title: "HealthCare Predictions on Diabetic Patients",
+    link:"https://github.com/maheshraut07/Healtcare-Prediction-On-Diabetic-Patients-using-machine-learning-",
     image: project3,
     duration:"Dec-23 - Jan-24",
     description:"This project aims to predict whether a person has diabetes or not based on input attributes such as glucose levels, age, gender, and BMI. The dataset contains fields like BMI, insulin, age, gender, blood pressure, skin thickness, etc. Various libraries have been used for preprocessing and training the model using these values to predict the results.",
@@ -53,6 +56,7 @@ export const PROJECTS = [
   },
   {
     title: "Portfolio Website",
+    link:"https://port-folio-mahesh-rauts-projects.vercel.app/",
     image: project4,
     duration:"sept-23 - Oct-23",
     description: "A personal portfolio website showcasing projects, skills, and contact information. Built to highlight my expertise in full stack development with an interactive and responsive design. The site provides an easy way to explore my work, background, and ways to get in touch.",
@@ -60,6 +64,7 @@ export const PROJECTS = [
   },
   {
     title: "TextEdit- App for Editing the Text",
+    link:"https://maheshtextedit.netlify.app/",
     image: project5,
     duration:"Jul-23 - Aug-23",
     description:"TextEdit is a simple and powerful web application made with React and Bootstrap using the create-react-app bundler. The app provides various features to manipulate and analyze text, such as converting text to uppercase or lowercase, removing extra spaces, copying text to the clipboard, and counting words and characters.",
